@@ -1,2 +1,2 @@
 # HuffmanEncoder
-Uses the basics of HuffmanEncoding to "encode" one file using another.  "Encodes" into strings of 1 and 0 text characters, doesn't actually decrease file size.  Dumps outcome into a new file if one isn't specified.
+Uses the basics of HuffmanEncoding to "encode" one file using another.  "Encodes" into strings of 1 and 0 text characters, doesn't actually decrease file size.  Dumps outcome into a new file if one isn't specified. Doesn't encode all characters, only alphanumeric ones.  When programming this, it was supposed to use a dictionary which had enough non-alphanumeric characters that the encryption failed.  
